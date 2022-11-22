@@ -9,7 +9,6 @@ It must meet the project requirements below, but beyond that, feel free to use y
 * **Your app has at least three distinct "features"**
   * If you are building a travel planning application, one feature could be allowing users to create a new trip
 * Your project contains a `README.md` file that explains what your project is and how to use it
-* Your project is hosted on GitHub pages
 * Your code is clean
   * Proper indentation
   * No unnecessary repetition
