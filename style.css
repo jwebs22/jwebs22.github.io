@@ -1,0 +1,89 @@
+#mainHeading
+{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#select
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#list
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#results
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#info
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#tips
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+
+#bookHeader
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#books
+{
+    background-color: rgb(208, 233, 238);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+}
+
+#textbox
+{
+    background-color: rgb(224, 236, 239);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(90, 31, 31);
+
+}
+.truncate-line-clamp 
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
+    width: 250px;
+    overflow: hidden;
+}
+
