@@ -212,13 +212,62 @@ let femaleComedicClassical = [];
 let femaleDramaticContemporary = [];
 let femaleDramaticClassical = [];
 
+//setting true/false & variables for each possible catagory. Plus updates innerText on button to show their selection:
+male.addEventListener("click", function()
+{
+    male = true;
+    female = false;
+    gender = "male";
+    genderButton.innerText = "Male";
+})
+
+female.addEventListener("click", function()
+{
+    female = true;
+    male = false;
+    gender = "female";
+    genderButton.innerText = "Female";
+})
+
+comedic.addEventListener("click", function()
+{
+    comedic = true;
+    dramatic = false;
+    type = "comedic";
+    typeButton.innerText = "Comedic";
+})
+
+dramatic.addEventListener("click", function()
+{
+    dramatic = true;
+    comedic = false;
+    type = "dramatic";
+    typeButton.innerText = "Dramatic";
+})
+
+contemporary.addEventListener("click", function()
+{
+    contemporary = true;
+    classical = false;
+    timePeriod = "contemporary";
+    timePeriodButton.innerText = "Contemporary";
+})
+
+classical.addEventListener("click", function()
+{
+    classical = true;
+    contemporary = false;
+    timePeriod = "classical";
+    timePeriodButton.innerText = "Classical";
+})
+
 
 
 //actions upon submit:
 submit.addEventListener("click", function()
 {
     //clears previous list
-    clear();
+    reset();
 
     //putting monologues into array for choice display
     for (let i = 0; i < plays.length; i++)
@@ -263,7 +312,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${maleComedicContemporary[choiceCounter].playTitle}. Author: ${maleComedicContemporary[choiceCounter].author}. Year: ${maleComedicContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${maleComedicContemporary[choiceCounter].playTitle}. Author: ${maleComedicContemporary[choiceCounter].author}. Year: ${maleComedicContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -555,56 +604,6 @@ submit.addEventListener("click", function()
     }
 })
 
-//setting true/false & variables for each possible catagory. Plus updates innerText on button to show their selection:
-male.addEventListener("click", function()
-{
-    male = true;
-    female = false;
-    gender = "male";
-    genderButton.innerText = "Male";
-})
-
-female.addEventListener("click", function()
-{
-    female = true;
-    male = false;
-    gender = "female";
-    genderButton.innerText = "Female";
-})
-
-comedic.addEventListener("click", function()
-{
-    comedic = true;
-    dramatic = false;
-    type = "comedic";
-    typeButton.innerText = "Comedic";
-})
-
-dramatic.addEventListener("click", function()
-{
-    dramatic = true;
-    comedic = false;
-    type = "dramatic";
-    typeButton.innerText = "Dramatic";
-})
-
-contemporary.addEventListener("click", function()
-{
-    contemporary = true;
-    classical = false;
-    timePeriod = "contemporary";
-    timePeriodButton.innerText = "Contemporary";
-})
-
-classical.addEventListener("click", function()
-{
-    classical = true;
-    contemporary = false;
-    timePeriod = "classical";
-    timePeriodButton.innerText = "Classical";
-})
-
-
 
 //Functions
 
@@ -644,7 +643,7 @@ function printTab()
 }
 
 //clears all previous data when submit button is hit again:
-function clear()
+function reset()
 {
     returnedMonologues.innerHTML = "";
     maleComedicContemporary = [];
@@ -676,5 +675,3 @@ function clear()
     timePeriodButton.innerText = "Time Period";
 
 }
-
-
