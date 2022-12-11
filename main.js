@@ -4,7 +4,7 @@ let plays =
 {
     playTitle: "Red Noses",
     author: "Peter Barnes",
-    character: "First Attendant",
+    character: "<strong>First Attendant<strong>",
     characterDesc: "Not much in the way of a description.",
     notes: "In the video linked here this monologue was cut from the performance. I will continue to try to find one for this specific monologue, but it does give you a good idea of the play.",
     gender: "male",
@@ -18,20 +18,20 @@ let plays =
     img: "images/Red_Noses.jpg"
 },
 {
-    playTitle: "Second Example Play 1: Male, Comedic, Contemporary",
-    author: "Second Example Author 1",
-    character: "Second Example Character 1",
-    characterDesc: "description of char Second example play 1",
-    notes: "none yet, second example play 1",
+    playTitle: "Angels Fall",
+    author: "Lanford Wilson",
+    character: "<strong>Salvatore Zappala</strong>",
+    characterDesc: "Marion's young lover. (source: Wikipedia)",
+    notes: "This falls more in serio-comedic territory. <p>I haven't found a video to the play, yet. The link just takes you to Youtube to do a search.<br> I will get my son's permission to link to his prescreen with this monologue and will put it up as soon as I do.",
     gender: "male",
     type: "comedic",
     timePeriod: "contemporary",
-    year: "year second example play 1",
-    monoText: "Second blah blah blah 1",
-    links: "http://www.google.com",
+    year: "1982",
+    monoText: "ZAPPY: <p>Like when I found out I was a tennis player. No, no joke. I went to church and lit a candle, man. <p> I was like in the fifth grade and I was watching these two hamburgers on some practice court, and they took a break and one of them hands me his racket. So I threw up a toss like I'd seen them do and zap! Three inches over the net, two inches inside the line. There wasn't nobody over there, but that was an ace, man. You should have heard those guys razz me. I mean, you know, they say, Man, you stink. And all those things you can't repeat in front of a priest. <p> They was really on my case. And I think that's the first time anybody ever looked at me. I mean, I was skinny, you've never seen --most of the girls in my homeroom had about twenty pounds on me. So this guy shows me a back-hand grip and he hits one to me and zap! You mother! Backhand! Right down the line. And the thing is, that's where I wanted it. I saw the ball come at me, and I said I'm gonna backhand this sucker right down the line, and I did. So then they took their ball back. Which I don't blame them, cause no high school hotshot is gonna get off on being showed up by this eleven-year-old creep that's built like a parking meter, you know? <p> But that was it. I hit that first ball and I said, This is me. This is what I do. What I do is tennis. And once you know, then there's no way out. You've been showed something. Even if it's just tennis, you can't turn around and say you wasn't showed that.",
+    links: "https://en.wikipedia.org/wiki/Angels_Fall",
     video: "http://www.youtube.com",
-    purchase: "http://www.amazon.com",
-    img: "https://bit.ly/3hboEiJ"
+    purchase: "https://amzn.to/3UMRKCT",
+    img: "images/AngelsFall.jpeg"
 },
 {
     playTitle: "Example Play 2: Female, Comedic, Contemporary",
@@ -130,20 +130,20 @@ let plays =
     img: "https://bit.ly/3hboEiJ"
 },
 {
-    playTitle: "Example Play 7: Male, Dramatic, Classical",
-    author: "Example Author 7",
-    character: "Example Character 7",
-    characterDesc: "description of char example play 7",
-    notes: "none yet, example play 7",
+    playTitle: "The Cherry Orchard",
+    author: "Anton Chekov",
+    character: "<strong>Peter Trofimov</strong>",
+    characterDesc: "<br>A graduate student and Anya's friend. Trofimov is depicted as an eternal (in some translations, wandering) student. An impassioned left-wing political commentator, he represents the rising tide of reformist political opinion in Russia, which struggled to find its place within the authoritarian Czarist autocracy. (source: Wikipedia)",
+    notes: "This monologue comes from a version of the play translated by Paul Schmidt. <p> This is a great scene and there is more text before and after this part that you could edit from. This particular bit here was around 1:20 with slate.",
     gender: "male",
     type: "dramatic",
     timePeriod: "classical",
-    year: "year ex play 7",
-    monoText: "blah blah blah 7",
-    links: "http://www.google.com",
-    video: "http://www.youtube.com",
-    purchase: "http://www.amazon.com",
-    img: "https://bit.ly/3hboEiJ"
+    year: "1904",
+    monoText: "TROFÍMOV: This whole country is our orchard. It's a big country and a beautiful one; it has lots of wonderful places in it. <p>Just think, Ánya: your grandfather, and his father, and his father's fathers, they owned the people who slaved away for them all over this estate, and now the voices and faces of human beings hide behind every cherry in the orchard, every leaf, every tree trunk. Can't you see them? And hear them? And owning human beings has left its mark on all of you, Look at your mother and your uncle! They live off the labor of others, they always have, and they've never even noticed! They owe their entire lives to those other people, people they wouldn't even let walk through the front gate of their beloved cherry orchard! This whole country has fallen behind; it'll take us at least two hundred years to catch up. <p> The thing is, we don't have any real sense of our own history; all we do is sit around and talk, talk, talk, then we feel depressed, so we go out and get drunk. If there's one thing that's dear to me, it's this: if we want to have any real life in the present, we have to do something to make up for our past, we have to get over it, and the only way to do that is to make sacrifices, get down to work, and work harder than we've ever worked before. Do you understand what I mean, Anya?",
+    links: "https://en.wikipedia.org/wiki/The_Cherry_Orchard",
+    video: "https://www.youtube.com/watch?v=DLCwEyZI_5c",
+    purchase: "https://amzn.to/3iWgRpK",
+    img: "images/The_Cherry_Orchard_MAT.jpg"
 },
 {
     playTitle: "Example Play 8: Female, Dramatic, Classical",
@@ -324,7 +324,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = maleComedicContemporary[n].img;
                 monoTextPara.innerHTML = maleComedicContemporary[n].monoText;
-                monoCardTitle.innerHTML = `${maleComedicContemporary[n].playTitle}, by: ${maleComedicContemporary[n].author}`;
+                monoCardTitle.innerHTML = `${maleComedicContemporary[n].playTitle} By: ${maleComedicContemporary[n].author}`;
                 characterDescription.innerHTML = "Character: " + maleComedicContemporary[n].character +"." + " " + maleComedicContemporary[n].characterDesc;
 
                 notes.innerHTML = maleComedicContemporary[n].notes;
@@ -350,7 +350,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${femaleComedicContemporary[choiceCounter].playTitle}. Author: ${femaleComedicContemporary[choiceCounter].author}. Year: ${femaleComedicContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${femaleComedicContemporary[choiceCounter].playTitle}. Author: ${femaleComedicContemporary[choiceCounter].author}. Year: ${femaleComedicContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -362,7 +362,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = femaleComedicContemporary[n].img;
                 monoTextPara.innerHTML = femaleComedicContemporary[n].monoText;
-                monoCardTitle.innerHTML = `${femaleComedicContemporary[n].playTitle}, by: ${femaleComedicContemporary[n].author}`;
+                monoCardTitle.innerHTML = `${femaleComedicContemporary[n].playTitle}. By: ${femaleComedicContemporary[n].author}`;
                 characterDescription.innerHTML = "Character: " + femaleComedicContemporary[n].character +"." + " " + femaleComedicContemporary[n].characterDesc;
 
                 notes.innerHTML = femaleComedicContemporary[n].notes;
@@ -387,7 +387,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${maleDramaticContemporary[choiceCounter].playTitle}. Author: ${maleDramaticContemporary[choiceCounter].author}. Year: ${maleDramaticContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`; 
+            sortedChoices.innerHTML = `${maleDramaticContemporary[choiceCounter].playTitle}. Author: ${maleDramaticContemporary[choiceCounter].author}. Year: ${maleDramaticContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`; 
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -399,7 +399,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = maleDramaticContemporary[n].img;
                 monoTextPara.innerHTML = maleDramaticContemporary[n].monoText;
-                monoCardTitle.innerHTML = `${maleDramaticContemporary[n].playTitle}, by: ${maleDramaticContemporary[n].author}`;
+                monoCardTitle.innerHTML = `${maleDramaticContemporary[n].playTitle}. By: ${maleDramaticContemporary[n].author}`;
                 characterDescription.innerHTML = "Character: " + maleDramaticContemporary[n].character +"." + " " + maleDramaticContemporary[n].characterDesc;
 
                 notes.innerHTML = maleDramaticContemporary[n].notes;
@@ -424,7 +424,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${femaleDramaticContemporary[choiceCounter].playTitle}. Author: ${femaleDramaticContemporary[choiceCounter].author}. Year: ${femaleDramaticContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${femaleDramaticContemporary[choiceCounter].playTitle}. Author: ${femaleDramaticContemporary[choiceCounter].author}. Year: ${femaleDramaticContemporary[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -436,7 +436,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = femaleDramaticContemporary[n].img;
                 monoTextPara.innerHTML = femaleDramaticContemporary[n].monoText;
-                monoCardTitle.innerHTML = `${femaleDramaticContemporary[n].playTitle}, by: ${femaleDramaticContemporary[n].author}`;
+                monoCardTitle.innerHTML = `${femaleDramaticContemporary[n].playTitle}. By: ${femaleDramaticContemporary[n].author}`;
                 characterDescription.innerHTML = "Character: " + femaleDramaticContemporary[n].character +"." + " " + femaleDramaticContemporary[n].characterDesc;
 
                 notes.innerHTML = femaleDramaticContemporary[n].notes;
@@ -462,7 +462,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${maleComedicClassical[choiceCounter].playTitle}. Author: ${maleComedicClassical[choiceCounter].author}. Year: ${maleComedicClassical[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${maleComedicClassical[choiceCounter].playTitle}. Author: ${maleComedicClassical[choiceCounter].author}. Year: ${maleComedicClassical[choiceCounter].year}.  <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -474,7 +474,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = maleComedicClassical[n].img;
                 monoTextPara.innerHTML = maleComedicClassical[n].monoText;
-                monoCardTitle.innerHTML = `${maleComedicClassical[n].playTitle}, by: ${maleComedicClassical[n].author}`;
+                monoCardTitle.innerHTML = `${maleComedicClassical[n].playTitle}. By: ${maleComedicClassical[n].author}`;
                 characterDescription.innerHTML = "Character: " + maleComedicClassical[n].character +"." + " " + maleComedicClassical[n].characterDesc;
 
                 notes.innerHTML = maleComedicClassical[n].notes;
@@ -500,7 +500,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${femaleComedicClassical[choiceCounter].playTitle}. Author: ${femaleComedicClassical[choiceCounter].author}. Year: ${femaleComedicClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${femaleComedicClassical[choiceCounter].playTitle}. Author: ${femaleComedicClassical[choiceCounter].author}. Year: ${femaleComedicClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -512,7 +512,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = femaleComedicClassical[n].img;
                 monoTextPara.innerHTML = femaleComedicClassical[n].monoText;
-                monoCardTitle.innerHTML = `${femaleComedicClassical[n].playTitle}, by: ${femaleComedicClassical[n].author}`;
+                monoCardTitle.innerHTML = `${femaleComedicClassical[n].playTitle}. By: ${femaleComedicClassical[n].author}`;
                 characterDescription.innerHTML = "Character: " + femaleComedicClassical[n].character +"." + " " + femaleComedicClassical[n].characterDesc;
 
                 notes.innerHTML = femaleComedicClassical[n].notes;
@@ -538,7 +538,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${maleDramaticClassical[choiceCounter].playTitle}. Author: ${maleDramaticClassical[choiceCounter].author}. Year: ${maleDramaticClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${maleDramaticClassical[choiceCounter].playTitle}. Author: ${maleDramaticClassical[choiceCounter].author}. Year: ${maleDramaticClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -550,7 +550,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = maleDramaticClassical[n].img;
                 monoTextPara.innerHTML = maleDramaticClassical[n].monoText;
-                monoCardTitle.innerHTML = `${maleDramaticClassical[n].playTitle}, by: ${maleDramaticClassical[n].author}`;
+                monoCardTitle.innerHTML = `${maleDramaticClassical[n].playTitle}. By: ${maleDramaticClassical[n].author}`;
                 characterDescription.innerHTML = "Character: " + maleDramaticClassical[n].character +"." + " " + maleDramaticClassical[n].characterDesc;
 
                 notes.innerHTML = maleDramaticClassical[n].notes;
@@ -576,7 +576,7 @@ submit.addEventListener("click", function()
         {
             let sortedChoices = document.createElement("li");
             returnedMonologues.appendChild(sortedChoices);
-            sortedChoices.innerHTML = `${femaleDramaticClassical[choiceCounter].playTitle}. Author: ${femaleDramaticClassical[choiceCounter].author}. Year: ${femaleDramaticClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-link">Load</button>`;
+            sortedChoices.innerHTML = `${femaleDramaticClassical[choiceCounter].playTitle}. Author: ${femaleDramaticClassical[choiceCounter].author}. Year: ${femaleDramaticClassical[choiceCounter].year}. <button type="button" id="load${idCounter+= 1}" class="btn btn-secondary btn-sm">Load</button>`;
         } 
         //after clicking load button on choice, sends data to cards
         for (let n = 0; n <= idCounter; n++)
@@ -588,7 +588,7 @@ submit.addEventListener("click", function()
 
                 playImage.src = femaleDramaticClassical[n].img;
                 monoTextPara.innerHTML = femaleDramaticClassical[n].monoText;
-                monoCardTitle.innerHTML = `${femaleDramaticClassical[n].playTitle}, by: ${femaleDramaticClassical[n].author}`;
+                monoCardTitle.innerHTML = `${femaleDramaticClassical[n].playTitle}. By: ${femaleDramaticClassical[n].author}`;
                 characterDescription.innerHTML = "Character: " + femaleDramaticClassical[n].character +"." + " " + femaleDramaticClassical[n].characterDesc;
 
                 notes.innerHTML = femaleDramaticClassical[n].notes;
