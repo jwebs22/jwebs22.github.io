@@ -1,43 +1,21 @@
-# Final Project
+# College Audition Monologue Finder
 
-In this project, you'll build a web application that does anything you want! 
+Monologues used for the program will always be from published plays, in the appropriate age range for students auditioning for college, and fit the guidelines for Common Prescreen (though users may need to edit for time).
 
-It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
+# Why Though?
 
-## Requirements
+There is not one single good, free source for such monologues. You're expected to sit and read a ton of plays in your spare time (Ha.), or purchase monologues books that might not have one single usable suggestion, or spend a load of cash on College Audition Coaches. 
 
-* **Your app has at least three distinct "features"**
-  * If you are building a travel planning application, one feature could be allowing users to create a new trip
-* Your project contains a `README.md` file that explains what your project is and how to use it
-* Your code is clean
-  * Proper indentation
-  * No unnecessary repetition
-  * Variables as camelCase
+# How to use it
 
-## Project ideas
+Select the gender, genre/type of monologue, and whether you want contemporary or classical (now defined as pre-1950). A list will generate for all the plays fitting that category that displays Play Title, Author, and the year it was written.
 
-* Travel planner
-* Budget manager
-* Resume builder
-* Shift scheduling app
-* Chat bot
-* Music making app
-* Games
-  * PacMan
-  * Chess
-* Do something with an external API: https://github.com/public-apis/public-apis
-  * Slack / discord bot
-  * Recreate Reddit
-  * Pokedex
+Select "Load" and the play info will generate in the cards below.
 
-And so many more possibilities!
+You will see a preview of the monologue that you can load into a new window, or a print window.
 
-## Recommendations
+There are also some links, tips, and books that I found helpful.
 
-* Start out by creating your project's foundation in HTML.
-* Frequently make commmits in git to save your progress.
-* Build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
-* Keep your code meticulously organized as you go. 
-* Use proper indentation, whitespace, and comments. 
-* Try to write a function for each separate piece of functionality that exists in your code. This will make your code "modular" and easier to build off of.
-* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition. DRY - Don't Repeat Yourself!
+# Coming Soon-ish
+--"any" gender category
+--"heightened language monologues"
