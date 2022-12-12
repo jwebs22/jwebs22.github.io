@@ -66,20 +66,20 @@ let plays =
     img: "https://bit.ly/3hboEiJ"
 },
 {
-    playTitle: "Example Play 3: Male, Dramatic, Contemporary",
-    author: "Example Author 3",
-    character: "Example Character 3",
-    characterDesc: "description of char example play 3",
-    notes: "none yet, example play 3",
+    playTitle: "Arcadia",
+    author: "Tom Stoppard",
+    character: "<strong>Valentine Coverly</strong>",
+    characterDesc: "Chloe's older brother. A graduate student of mathematics, he pores over several old documents and comes to acknowledge Thomasina's genius. (source: wikipedia)",
+    notes: "Described as a comedy/drama. This monologue seems to fall more on the side of dramatic.",
     gender: "male",
     type: "dramatic",
     timePeriod: "contemporary",
-    year: "year ex play 3",
-    monoText: "blah blah blah 3",
-    links: "http://www.google.com",
-    video: "http://www.youtube.com",
-    purchase: "http://www.amazon.com",
-    img: "https://bit.ly/3hboEiJ"
+    year: "1993",
+    monoText: "If you knew the algorithm and fed it back say ten thousand times, each time there’d be a dot somewhere on the screen. You’d never know where to expect the next dot. But gradually you’d start to see this shape, because every dot will be a mathematical object. But yes. The unpredictable and the predictable unfold together to make everything the way it is. it’s how nature creates itself, on every scale, the snowflake and the snowstorm. it makes me so happy. To be at the beginning again, knowing almost nothing. <p> People were talking about the end of physics. Relativity and quantum looked as if they were going to clean out the whole problem between them. A theory of everything. But they only explained the very big and the very small. The universe, the elementary particles. The ordinarysizes stuff which is our lives, the things people write poetry about - clouds -daffodils - waterfalls- and what happens in a cup of coffee when the cream goes in - these things are full of mystery, as mysterious to us as the heavens were to the Greeks. <p> We’re better at predicting events at the edge of the galaxy or inside the nucleus of an atom than whether it’ll rain on auntie’s garden party three Sundays from now. Because the problem turns out to be different. We can’t even predict the net drip from a dripping tap when it gets irregular. Each drip sets up the conditions for the next, the smallest variation blows prediction apart, and the weather is unpredictable the same way, will always be unpredictable.<p> When you push the numbers through the computer you can see it on the screen. The future is disorder. A door like this has cracked open five or six times since we got up on our hind legs. It’s the best possible time to be alive, when almost everything you thought you knew is wrong.",
+    links: "https://en.wikipedia.org/wiki/Arcadia_(play)",
+    video: "https://www.youtube.com/watch?v=Zc2LHwP7REo&list=PL6-Gpuptr59cugzVIfMp7hu-P0n0gsviS",
+    purchase: "https://amzn.to/3Po1vXg",
+    img: "images/arcadia.jpeg"
 },
 {
     playTitle: "Example Play 4: Female, Dramatic, Contemporary",
